@@ -13,8 +13,7 @@ td {
     border: 1px solid #333;
 }
 
-thead,
-tfoot {
+thead{
     background-color: #333;
     color: #fff;
 }
