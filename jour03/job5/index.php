@@ -20,7 +20,7 @@ for ($a = 0; isset($str[$a]); $a++) {
     for ($i = 0; isset($dic["consonnes"][$i]); $i++) {
 
         if ($str[$a] == $dic["consonnes"][$i]) {
-            
+
             $consonne++;
         }
     }
