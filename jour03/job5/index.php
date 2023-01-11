@@ -8,13 +8,19 @@ $voyelle = 0;
 $consonne = 0;
 
 for ($a = 0; isset($str[$a]); $a++) {
+
     for ($i = 0; isset($dic["voyelles"][$i]); $i++) {
+
         if ($str[$a] == $dic["voyelles"][$i]) {
+
             $voyelle++;
+
         }
     }
     for ($i = 0; isset($dic["consonnes"][$i]); $i++) {
+
         if ($str[$a] == $dic["consonnes"][$i]) {
+            
             $consonne++;
         }
     }
