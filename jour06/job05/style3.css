@@ -1,0 +1,40 @@
+style3.css
+h1, h2{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Changa', sans-serif;
+}
+
+body{
+    background-color: rgb(216, 171, 220);
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width:25%;
+    margin:auto;
+    font-family: 'Changa', sans-serif;
+}
+
+select{
+    width: 200px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-family: 'Changa', sans-serif;
+}
+
+p{
+        background-color: rgb(231, 207, 233);
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+        
+}
+
+input{
+    margin-top: 5px;
+    font-family: 'Changa', sans-serif;
+}

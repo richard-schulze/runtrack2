@@ -1,0 +1,35 @@
+style2.css
+h1, h2{
+
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color:cornflowerblue;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+select{
+    width: 100px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+p{
+        display: flex;
+        text-align: start;
+        flex-direction: column;       
+}
+
+input{
+    margin-top: 10px;
+}
