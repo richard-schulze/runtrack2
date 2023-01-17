@@ -39,7 +39,7 @@ function leetSpeak($str)
       return $str;
 }
 
-echo leetSpeak('Bonjour, ceci est une chaine de caractere');
+echo leetSpeak('Bienvenue, voici ma chaine de caractere');
 
 
 ?>
