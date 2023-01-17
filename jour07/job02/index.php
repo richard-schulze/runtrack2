@@ -6,6 +6,6 @@ function bonjour($jour){
         echo "Bonsoir<br>";
     }
 }
-bonjour(True);
-bonjour(False);
+bonjour(true);
+bonjour(false);
 ?>
