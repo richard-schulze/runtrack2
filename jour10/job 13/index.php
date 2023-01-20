@@ -7,8 +7,7 @@
     <?php
     $mysqli = new mysqli("localhost", "root", "", "jour09");
     
-     $request = $mysqli->query("SELECT salles.nom AS Nom_de_la_salle, etage.nom AS Nom_etage FROM salles INNER JOIN 
-                                etage ON salles.id_etage=etage.id");
+     $request = $mysqli->query("SELECT salles.nom AS Nom_de_la_salle, etage.nom AS Nom_etage FROM salles INNER JOIN etage ON salles.id_etage=etage.id");
     
     $results = $request -> fetch_array(MYSQLI_ASSOC);
     
