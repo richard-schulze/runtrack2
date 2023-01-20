@@ -7,7 +7,7 @@
     <?php
     $mysqli = new mysqli("localhost", "root", "", "jour09");
     
-    $request = $mysqli->query("SELECT COUNT(*) AS 'Nombre d\'étudiants' FROM etudiants");
+    $request = $mysqli->query("SELECT COUNT(*) AS 'Nombre d\'étudiants' FROM etudiants ");
     
     $results = $request -> fetch_array(MYSQLI_ASSOC);
     
