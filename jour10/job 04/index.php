@@ -7,7 +7,7 @@
     <?php
     $mysqli = new mysqli("localhost", "root", "", "jour09");
     
-    $request = $mysqli->query("SELECT * FROM `etudiants` WHERE LEFT(prenom, 1) = 'T';");
+    $request = $mysqli->query("SELECT * FROM `etudiants` WHERE LEFT(prenom, 1) ='T';");
     
     $results = $request -> fetch_array(MYSQLI_ASSOC);
     
