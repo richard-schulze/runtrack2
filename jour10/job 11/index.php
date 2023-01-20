@@ -7,7 +7,7 @@
     <?php
     $mysqli = new mysqli("localhost", "root", "", "jour09");
     
-    $request = $mysqli->query("SELECT AVG(`capacite`) AS 'capacité moyenne des salles' FROM `salles`;");
+    $request = $mysqli->query("SELECT AVG(`capacite`) AS 'capacité moyenne des salles' FROM `salles` ");
     
     $results = $request -> fetch_array(MYSQLI_ASSOC);
     
